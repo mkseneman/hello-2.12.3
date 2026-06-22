@@ -1,6 +1,6 @@
 Source: hello
 Section: devel
-Maintainer: Santiago Vila <sanvila@debian.org>
+Maintainer: Matej Kseneman <matej.kseneman@gmail.com>
 Standards-Version: 4.7.4
 Build-Depends: debhelper-compat (= 13), texinfo
 Homepage: https://www.gnu.org/software/hello/
