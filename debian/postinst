@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    # Fix the permission stripped by the quilt patch format
+    chmod +x /usr/bin/testing.sh
+    
+    # Echo the required string to STDOUT
+    echo "this is a test from Matej Kseneman"
+fi
+
+#DEBHELPER#
+
+exit 0
+

@@ -1,0 +1,355 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: hello
+Upstream-Contact: bug-hello@gnu.org
+Source: https://ftp.gnu.org/gnu/hello/
+
+Files: *
+Copyright: 1992-2026 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: lib/*
+Copyright: 1987-2026 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files: lib/basename.c
+       lib/close-stream.c
+       lib/close-stream.h
+       lib/closeout.c
+       lib/closeout.h
+       lib/dirname.c
+       lib/fpending.c
+       lib/fpending.h
+       lib/progname.c
+       lib/progname.h
+       lib/propername.c
+       lib/propername.h
+       lib/quote.h
+       lib/quotearg.c
+       lib/quotearg.h
+       lib/trim.c
+       lib/trim.h
+       lib/xalloc-die.c
+       lib/xalloc.h
+       lib/xmalloc.c
+       lib/xstriconv.c
+       lib/xstriconv.h
+Copyright: 1990-2026 Free Software Foundation, Inc.
+License: GPL-3+
+
+Files: lib/gnulib.mk
+Copyright: 2002-2026 Free Software Foundation, Inc.
+License: GPL-3+ with autoconf exception
+
+Files: lib/_Noreturn.h
+       lib/arg-nonnull.h
+       lib/c++defs.h
+       lib/warn-on-use.h
+Copyright: 2009-2026 Free Software Foundation, Inc.
+License: LGPL-2+
+
+Files: lib/mbslen.c
+       lib/mbsstr.c
+       lib/mbuiter.c
+       lib/mbuiter.h
+       lib/mbuiterf.c
+       lib/mbuiterf.h
+       lib/version-etc-fsf.c
+       lib/version-etc.c
+       lib/version-etc.h
+Copyright: 1999-2026 Free Software Foundation, Inc.
+License: LGPL-3+
+
+Files: lib/str-kmp.h
+Copyright: 2005-2026 Free Software Foundation, Inc.
+License: LGPL-3+ or GPL-2+
+ This file is dual-licensed under the GNU LGPLv3+ or the GNU GPLv2+.
+ .
+ You can redistribute it and/or modify it under either
+  - the terms of the GNU Lesser General Public License as published
+    by the Free Software Foundation, either version 3 of the License,
+    or (at your option) any later version, or
+  - the terms of the GNU General Public License as published by the
+    Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+Files: po/*.po
+       po/hello.pot
+Copyright: 1995-2026 Free Software Foundation, Inc.
+License: GPL-3+
+ This file is distributed under the same license as the hello package.
+
+Files: doc/*.info
+       doc/*.texi
+Copyright: 1992-2026 Free Software Foundation, Inc.
+License: GFDL-1.3+
+
+Files: build-aux/gnupload
+Copyright: 2004-2026 Free Software Foundation, Inc.
+License: GPL-2+
+
+Files: build-aux/compile
+       build-aux/depcomp
+       build-aux/mdate-sh
+       build-aux/missing
+       build-aux/test-driver
+Copyright: 1995-2025 Free Software Foundation, Inc.
+License: GPL-2+ with autoconf exception
+
+Files: build-aux/config.guess
+       build-aux/config.sub
+Copyright: 1992-2025 Free Software Foundation, Inc.
+License: GPL-3+ with autoconf exception
+
+Files: build-aux/install-sh
+Copyright: 1994 X Consortium
+License: X11
+
+Files: build-aux/texinfo.tex
+Copyright: 1985, 1986, 1988, 1990-2025 Free Software Foundation, Inc.
+License: GPL-3+ with texinfo exception
+
+Files: m4/*
+Copyright: 1992-2026 Free Software Foundation, Inc.
+License: FSFULLRSD
+ This file is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ This file is offered as-is, without any warranty.
+
+Files: m4/gnulib-cache.m4
+       m4/gnulib-comp.m4
+Copyright: 2002-2026 Free Software Foundation, Inc.
+License: GPL-3+ with autoconf exception
+
+Files: AUTHORS
+       ChangeLog.O
+       README
+       README-dev
+       THANKS
+       po/POTFILES.in
+       tests/*
+Copyright: 1992-2026 Free Software Foundation, Inc.
+License: FSFAP-no-warranty-disclaimer
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.
+
+Files: INSTALL
+Copyright: 1994-1996, 1999-2002, 2004-2017, 2020-2025 Free Software Foundation, Inc.
+License: FSFAP
+ Copying and distribution of this file, with or without modification,
+ are permitted in any medium without royalty provided the copyright
+ notice and this notice are preserved.  This file is offered as-is,
+ without warranty of any kind.
+
+Files: Makefile.in
+       aclocal.m4
+       configure.ac
+Copyright: 1994-2026 Free Software Foundation, Inc.
+License: FSFULLRWD
+ This file is free software; as a special exception the author gives
+ unlimited permission to copy and/or distribute it, with or without
+ modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY, to the extent permitted by law; without even the
+ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Files: configure
+Copyright: 1992-1996, 1998-2017, 2020-2023 Free Software Foundation, Inc.
+License: FSFUL
+ This configure script is free software; the Free Software Foundation
+ gives unlimited permission to copy, distribute and modify it.
+
+Files: debian/*
+Copyright: 1994-2026 Debian hello package maintainers
+License: CC0-1.0
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+ with autoconf exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+ with autoconf exception
+ This file is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that
+ program. This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: GPL-3+ with texinfo exception
+ This texinfo.tex file is free software: you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This texinfo.tex file is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception, when this file is read by TeX when processing
+ a Texinfo source document, you may use the result without
+ restriction. This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published
+ by the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2.1 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/LGPL-3'.
+
+License: GFDL-1.3+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3 or
+ any later version published by the Free Software Foundation; with no
+ Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ .
+ On Debian systems, the full text of the GNU Free Documentation License
+ version 1.3 can be found in the file `/usr/share/common-licenses/GFDL-1.3'.
+
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+
+License: CC0-1.0
+ On Debian systems, the full text of the Creative Commons Zero v1.0 Universal
+ license can be found in the file `/usr/share/common-licenses/CC0-1.0'.

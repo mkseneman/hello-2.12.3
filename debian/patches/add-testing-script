@@ -1,0 +1,24 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Matej Kseneman <matej.kseneman@gmail.com>
+Date: jun, 19 2026 11:17:48 +0200
+Subject: [PATCH] Add testing.sh scriot
+
+Added testing script that print out my name.
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-<Vendor>: <vendor-bugtracker-url>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+
+--- /dev/null
++++ hello-2.12.3/testing.sh
+@@ -0,0 +1,2 @@
++#!/bin/bash
++echo "this is a test from Matej Kseneman" >&2
